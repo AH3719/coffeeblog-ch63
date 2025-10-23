@@ -3,29 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Blog</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Coffee Blog Page</title>
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Coffee Blog</h1>
-        <p>Coffee Blog with Tips and Courses</p>
-        <p>Learn from the Experts with ...</p>
+    <header class="header-index">
+        <div class="navigation-bar">
+            <h1>Coffee Blog</h1>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <p>Coffee blog with tips and courses</p>
+        <p>Learn from the experts with ...</p>
     </header>
-    <main>
-        <header>
-            <h2>Our Blog</h2>
-        <div>
-            <h3>Coffee Bean Type</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus optio cupiditate ullam recusandae pariatur voluptatem sequi quibusdam, incidunt aliquid cum, aperiam, accusamus dolores commodi suscipit quae rem dicta expedita quisquam nobis totam. Rerum esse ut, iusto fugit obcaecati impedit dolores consequatur odit accusamus nemo quaerat exercitationem veritatis aut quo nihil corporis incidunt et facere. Eum, tenetur maiores voluptatibus minima voluptate quaerat expedita animi id. Commodi inventore odio voluptates natus vero, porro fuga nostrum consequatur molestias! Delectus aperiam illum voluptate natus, dolores cum necessitatibus odit at nisi! Esse natus distinctio exercitationem provident ad consequatur. Voluptatum maxime deleniti nesciunt quam expedita obcaecati?</p>
-        </div>
-                <div>
-            <h3>3 Delicious Coffee Recipes</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus optio cupiditate ullam recusandae pariatur voluptatem sequi quibusdam, incidunt aliquid cum, aperiam, accusamus dolores commodi suscipit quae rem dicta expedita quisquam nobis totam. Rerum esse ut, iusto fugit obcaecati impedit dolores consequatur odit accusamus nemo quaerat exercitationem veritatis aut quo nihil corporis incidunt et facere. Eum, tenetur maiores voluptatibus minima voluptate quaerat expedita animi id. Commodi inventore odio voluptates natus vero, porro fuga nostrum consequatur molestias! Delectus aperiam illum voluptate natus, dolores cum necessitatibus odit at nisi! Esse natus distinctio exercitationem provident ad consequatur. Voluptatum maxime deleniti nesciunt quam expedita obcaecati?</p>
-        </div>
-                <div>
-            <h3>Coffee Benefits</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus optio cupiditate ullam recusandae pariatur voluptatem sequi quibusdam, incidunt aliquid cum, aperiam, accusamus dolores commodi suscipit quae rem dicta expedita quisquam nobis totam. Rerum esse ut, iusto fugit obcaecati impedit dolores consequatur odit accusamus nemo quaerat exercitationem veritatis aut quo nihil corporis incidunt et facere. Eum, tenetur maiores voluptatibus minima voluptate quaerat expedita animi id. Commodi inventore odio voluptates natus vero, porro fuga nostrum consequatur molestias! Delectus aperiam illum voluptate natus, dolores cum necessitatibus odit at nisi! Esse natus distinctio exercitationem provident ad consequatur. Voluptatum maxime deleniti nesciunt quam expedita obcaecati?</p>
-        </div>
+    <main class="main-flex container">
+        <section class="blog-container">
+            <h2 >Our blog</h2>
+            <div>
+                <img src="./img/blog1.jpg" alt="">
+                <h3>Coffee Bean type</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus illum animi amet culpa? Possimus deserunt molestiae, repudiandae amet laudantium, consequuntur nobis, sunt aliquid voluptatum praesentium ab architecto nihil modi illum.</p>
+                <a class="btn btn-read" href="#">Read more</a>
+            </div>
+            <div>
+                <img src="./img/blog2.jpg" alt="">
+                <h3>3 delicious coffee</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus illum animi amet culpa? Possimus deserunt molestiae, repudiandae amet laudantium, consequuntur nobis, sunt aliquid voluptatum praesentium ab architecto nihil modi illum.</p>
+                <a class="btn btn-read" href="#">Read more</a>
+            </div>
+            <div>
+                <img src="./img/blog3.jpg" alt="">
+                <h3>Coffee benefits</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus illum animi amet culpa? Possimus deserunt molestiae, repudiandae amet laudantium, consequuntur nobis, sunt aliquid voluptatum praesentium ab architecto nihil modi illum.</p>
+                <a class="btn btn-read" href="#">Read more</a>
+            </div>
+        </section>
+        <section class="courses-container">
+            <h2>Our courses and workshops</h2>
+            <div>
+                <h3>Coffe extraction techniques</h3>
+                <p>Price: Free</p>
+                <p>Seat: 20</p>
+                <a class="btn btn-info" href="#">More information</a>
+            </div>
+            <div>
+                <h3>Coffe extraction techniques</h3>
+                <p>Price: Free</p>
+                <p>Seat: 20</p>
+                <a class="btn btn-info" href="#">More information</a>
+            </div>
+        </section> 
     </main>
 </body>
 </html>
